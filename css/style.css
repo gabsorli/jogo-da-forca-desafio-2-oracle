@@ -1,0 +1,376 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background: #F3F5FC;
+}
+
+/*header*/
+.logo-alura{
+	padding: 30px 0 0 40px;
+	width: 120px;
+}
+#tabuleiro{
+    transition: 500ms;
+    width: 1200px;
+    height: 800px;
+}
+
+/*botoes comecar jogo e adicionar palavras*/
+.campo-acrescentar-palavra{
+    background: none;
+    border: none;
+    font-size: 32px;
+    left: 265px;
+    position: absolute;
+    top: 200px;
+    outline: 0;
+    color: #0A3871;
+}
+
+.botao-comecar-jogo{
+    padding: 24px;
+    position: absolute;
+    width: 317px;
+    height: 105px;
+    left: 562px;
+    top: 150px;
+
+    background: #0A3871;
+    border: none;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.botao-comecar-jogo:hover{
+    transition: 500ms;
+    background: #1b559c;
+}
+.botao-comecar-jogo:active{
+    transition: 500ms;
+    background: #0A3871;
+}
+
+.botao-adicionar-palavra{
+    padding: 24px;
+    position: absolute;
+    width: 317px;
+    height: 105px;
+    left: 562px;
+    top: 290px;
+
+    background: #F3F5FC;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #0A3871;
+
+}
+.botao-adicionar-palavra:hover{
+    transition: 500ms;
+    background: #1b559c;
+    color: #FFFFFF;
+}
+.botao-adicionar-palavra:active{
+    transition: 500ms;
+    background: #0A3871;
+    color: #FFFFFF;
+}
+
+
+/*imagens forca*/
+
+#forca-1{
+    position: absolute;
+    left: 470px;
+    top: 121px;
+}
+
+#forca-2{
+    position: absolute;
+    left: 693px;
+    top: 170px;
+}
+
+#forca-3{
+    position: absolute;
+    left: 723px;
+    top: 230px;
+}
+
+#forca-4{
+    position: absolute;
+    left: 690px;
+    top: 360px;
+}
+
+#forca-5{
+    position: absolute;
+    left: 725px;
+    top: 360px;
+}
+
+#forca-6{
+    position: absolute;
+    left: 689px;
+    top: 250px;
+}
+
+#forca-7{
+    position: absolute;
+    left: 725px;
+    top: 250px;
+}
+
+/*botoes novo jogo e desistir*/
+.campo-input-jogador{
+    background: none;
+    border: none;
+    font-size: 32px;
+    left: 430px;
+    position: absolute;
+    top: 632px;
+    outline: 0;
+    color: #0A3871;
+    text-transform: uppercase;
+}
+.botao-novo-jogo{
+    padding: 24px;
+    position: absolute;
+    width: 400px;
+    height: 67px;
+    left: 265px;
+    top: 770px;
+
+    background: #0A3871;
+    border: none;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.botao-novo-jogo:hover{
+    transition: 500ms;
+    background: #1b559c;
+}
+.botao-novo-jogo:active{
+    transition: 500ms;
+    background: #0A3871;
+}
+
+.botao-desistir{
+    padding: 24px;
+    position: absolute;
+    width: 400px;
+    height: 67px;
+    left: 685px;
+    top: 770px;
+
+    background: #F3F5FC;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #0A3871;
+
+}
+.botao-desistir:hover{
+    transition: 500ms;
+    background: #1b559c;
+    color: #FFFFFF;
+}
+.botao-desistir:active{
+    transition: 500ms;
+    background: #0A3871;
+    color: #FFFFFF;
+}
+
+/*letras erradas*/
+.tr-letras-erradas{
+    font-size: 24px;
+    left: 580px;
+    position: absolute;
+    top: 610px;
+    text-transform: uppercase;
+    color: #0A3871;
+    letter-spacing: 5px;
+    width: 40px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+/*botoes salvar e começar e cancelar*/
+.botao-salvar-comecar{
+    padding: 24px;
+    position: absolute;
+    width: 400px;
+    height: 67px;
+    left: 265px;
+    top: 400px;
+
+    background: #0A3871;
+    border: none;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.botao-salvar-comecar:hover{
+    transition: 500ms;
+    background: #1b559c;
+}
+.botao-salvar-comecar:active{
+    transition: 500ms;
+    background: #0A3871;
+}
+
+.botao-cancelar{
+    padding: 24px;
+    position: absolute;
+    width: 400px;
+    height: 67px;
+    left: 685px;
+    top: 400px;
+
+    background: #F3F5FC;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #0A3871;
+
+}
+.botao-cancelar:hover{
+    transition: 500ms;
+    background: #1b559c;
+    color: #FFFFFF;
+}
+.botao-cancelar:active{
+    transition: 500ms;
+    background: #0A3871;
+    color: #FFFFFF;
+}
+
+/*tr-palavra-sorteada*/
+.tr-palavra-sorteada{
+    background: none;
+    border: none;
+    left: 265px;
+    position: absolute;
+    top: 510px;
+    outline: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #0A3871;
+    display: flex;
+}
+
+.td-palavra-sorteada{
+    border: 3px solid #0A3871;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    letter-spacing: 5px;
+    width: 40px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.ul-tracejado-palavra-sorteada{
+    background: none;
+    border: none;
+    left: 265px;
+    position: absolute;
+    top: 558px;
+    outline: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #0A3871;
+    display: flex;
+}
+
+.li-tracejado-palavra-sorteada{
+    border: 3px solid #0A3871;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    letter-spacing: 5px;
+    width: 40px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+/*footer*/
+
+.footer{
+	background: #0A3871;
+	height: 100px;
+	margin: 40px 0 0 0;
+	text-align: center;
+}
+.copyright{
+	padding: 20px 0 10px 0;
+	text-align: center;
+	color: white;
+}
+.logo-github{
+	width: 30px;
+	height: 30px;
+	margin: 0 5px 0 0;
+}
+.logo-linkedin{
+	width: 30px;
+	height: 30px;
+}
+@media screen and (max-width: 480px){
+	
+}
+.fadeOut{
+    opacity: 0;
+}
+.transicaoSuave{
+    opacity: 0;
+    transition: 500ms;
+}

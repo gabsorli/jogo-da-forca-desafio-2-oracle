@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Jogo da Forca</title>
+        <link rel="icon" type="image/x-icon" href="img/alura.svg">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap"" rel="stylesheet">
+    </head>
+    <body>
+        <header><img src="img/logo-alura.svg" class="logo-alura"></header>
+        <main>
+            <div id="tabuleiro">
+                <div class="imagens-forca">
+                    <img src="img/forca/forca.svg" alt="forca" class="fadeOut" id="forca-1">
+                    <img src="img/forca/cabeca.svg" alt="cabeca" class="fadeOut" id="forca-2">
+                    <img src="img/forca/tronco.svg" alt="tronco" class="fadeOut" id="forca-3">
+                    <img src="img/forca/perna-esquerda.svg" alt="perna-esquerda" class="fadeOut" id="forca-4">
+                    <img src="img/forca/perna-direita.svg" alt="perna-direita" class="fadeOut" id="forca-5">
+                    <img src="img/forca/braco-esquerdo.svg" alt="braco-esquerdo" class="fadeOut" id="forca-6">
+                    <img src="img/forca/braco-direito.svg" alt="braco-direito" class="fadeOut" id="forca-7">
+                </div>
+                <div id="botoes-do-inicio">
+                    <button id="botao-comecar" >Começar a jogar</button>
+                    <button id="botao-adicionar-palavra">Adicionar nova palavra</button>
+                </div>
+                <div class="botoes-incluir-palavras">
+                    <input type="text" class="campo-acrescentar-palavra" placeholder="Digite uma palavra ou frase">
+                    <button class="botao-salvar-começar">Salvar e começar</button>
+                    <button class="botao-cancelar">Cancelar</button>
+                </div>
+                <span id="palavra-sorteada"></span>
+                <div class="letras-erradas"></div>
+                <input type="text" id="campo-input-jogador" class="campo-input-jogador">
+                <button class="novo-jogo">Novo jogo</button>
+                <button class="desistir">Desistir</button>
+                <!--<div class="div-palavra-sorteada></div>-->
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="copyright">&copy; Copyright 2022 - By Gabriel Orlandi</p>
+			<a href="https://github.com/gabsorli" target="_blank" rel="noopener noreferrer">
+			<img class="logo-github" src="img/logo-github.svg"></a>
+			<img class="logo-linkedin" src="img/logo-linkedin.svg">
+        </footer>
+        <script src="js/tabuleiro-jogo.js"></script>
+    </body>
+</html>
